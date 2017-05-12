@@ -18,7 +18,7 @@ module.exports = (robot) ->
   ).start()
 
   new cronJob('0 00 17 * * 1-5', () ->
-    send "#bot_test", "@here あと1時間で定時です!もうひと踏ん張り"
+    send "#bot_test", "@here あと1時間で帰れるぞ"
   ).start()
 
   new cronJob('0 00 18 * * 1-5', () ->
